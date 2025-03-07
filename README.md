@@ -11,6 +11,7 @@ loxone:
   id: loxone_udp
   loxone_ip: "192.168.50.124" # loxone server ip
   loxone_port: 9999 # loxone server port
+  listen_port: 8888
 
 binary_sensor:
   # IN1
