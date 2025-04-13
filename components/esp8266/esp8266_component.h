@@ -72,5 +72,5 @@ namespace esphome {
       ESP8266UdpComponent *parent_;
     };
 
-  }  // namespace esp8266_udp
+  }  // namespace esp8266
 }  // namespace esphome
