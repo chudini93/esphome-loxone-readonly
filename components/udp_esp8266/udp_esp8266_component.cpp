@@ -1,7 +1,7 @@
-#include "esp8266_component.h"
+#include "udp_esp8266_component.h"
 
 namespace esphome {
-  namespace esp8266 {
+  namespace udp_esp8266 {
 
     void ESP8266UdpComponent::setup() {}
 
@@ -33,5 +33,5 @@ namespace esphome {
       ESP_LOGD(TAG, "Queued string data for sending: %s", data.c_str());
     }
 
-  }  // namespace esp8266_udp
+  }  // namespace udp_esp8266
 }  // namespace esphome

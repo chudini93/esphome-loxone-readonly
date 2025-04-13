@@ -9,7 +9,7 @@ from esphome.const import (
 
 DEPENDENCIES = ['network']
 
-my_ns = cg.esphome_ns.namespace('esp8266')
+my_ns = cg.esphome_ns.namespace('udp_esp8266')
 ESP8266UdpComponent = my_ns.class_('ESP8266UdpComponent', cg.PollingComponent)
 OnStringDataTrigger = my_ns.class_(
     "OnStringDataTrigger",

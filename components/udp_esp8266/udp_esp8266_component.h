@@ -12,10 +12,10 @@
   #error "This component is intended for ESP8266 only."
 #endif
 
-#define TAG "esp8266"
+#define TAG "udp_esp8266"
 
 namespace esphome {
-  namespace esp8266 {
+  namespace udp_esp8266 {
 
     class OnStringDataTrigger;
 
@@ -72,5 +72,5 @@ namespace esphome {
       ESP8266UdpComponent *parent_;
     };
 
-  }  // namespace esp8266
+  }  // namespace udp_esp8266
 }  // namespace esphome
