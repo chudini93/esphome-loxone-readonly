@@ -1,4 +1,4 @@
-#include "esp8266_udp.h"
+#include "esp8266_component.h"
 
 namespace esphome {
   namespace esp8266 {
