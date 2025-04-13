@@ -1,7 +1,7 @@
 #include "esp8266_udp.h"
 
 namespace esphome {
-  namespace esp8266_udp {
+  namespace esp8266 {
 
     void ESP8266UdpComponent::setup() {}
 
