@@ -12,7 +12,7 @@
   #error "This component is intended for ESP8266 only."
 #endif
 
-#define TAG "loxone"
+#define TAG "esp8266_udp"
 
 namespace esphome {
   namespace esp8266_udp {
@@ -55,8 +55,7 @@ namespace esphome {
       WiFiUDP udp_;
       bool udp_initialized_ = false;
 
-      void fire_triggers();
-      void ensure_connect_udp();  // Placeholder if needed
+      void ensure_connect_udp();
     };
 
     class OnStringDataTrigger : public Trigger<std::string>, public Component {
