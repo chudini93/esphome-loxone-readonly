@@ -27,11 +27,11 @@ namespace esphome {
     void ESP8266UdpComponent::send_string_data(std::string data) {
       if (disableUdpBuffer){
         udp_.beginPacket(loxone_ip_.c_str(), loxone_port_);
-        udp_.write(data);
+        udp_.write(data.c_str());
         udp_.write(delimiter_.c_str());
         udp_.endPacket();
         
-        ESP_LOGD(TAG, "Sent string data: %s", data);
+        ESP_LOGD(TAG, "Sent string data: %s", data.c_str());
         return;
       }
       
