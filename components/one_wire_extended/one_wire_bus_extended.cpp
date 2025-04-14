@@ -1,4 +1,4 @@
-#include "one_wire_bus.h"
+#include "one_wire_bus_extended.h"
 #include "esphome/core/helpers.h"
 
 namespace esphome {
