@@ -1,6 +1,6 @@
 #pragma once
 
-#include "one_wire_bus.h"
+#include "one_wire_bus_extended.h"
 #include "esphome/core/helpers.h"
 #include "esphome/core/log.h"
 

@@ -8,7 +8,7 @@ IS_PLATFORM_COMPONENT = True
 
 CONF_ONE_WIRE_ID = "one_wire_id"
 
-one_wire_ns = cg.esphome_ns.namespace("one_wire")
+one_wire_ns = cg.esphome_ns.namespace("one_wire_extended")
 OneWireBus = one_wire_ns.class_("OneWireBus")
 OneWireDevice = one_wire_ns.class_("OneWireDevice")
 
